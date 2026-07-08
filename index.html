@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <h1>RESUME</h1>
+    <hr><hr>
+    <h1>CH.B.S.K.CHARAN REDDY</h1>
+    <p><strong>Email:</strong> charanreddy@email.com</p>
+    <p><strong>Phone:</strong> +91 9441887886</p>
+    <p><strong>Location:</strong>andhra pradesh,west godavari,maruteru(534122)</p>
+
+    <hr>
+
+    <h2>Career Objective</h2>
+    <p>
+        To obtain a challenging position where I can apply my skills and
+        continue learning while contributing to the organization's success.
+    </p>
+
+    <h2>Education</h2>
+    <table border="1">
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Percentage/CGPA</th>
+        </tr>
+        <tr>
+            <td>B.Tech in Computer Science</td>
+            <td>SITE College</td>
+            <td>2026</td>
+            <td>7.0 CGPA</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>Aditya Junior College</td>
+            <td>2022</td>
+            <td>75%</td>
+        </tr>
+    </table>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>C Programming</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ol>
+        <li>
+            <strong>Personal Portfolio</strong>
+            <p>Created a simple portfolio website using HTML and CSS.</p>
+        </li>
+    </ol>
+
+    <h2>Certifications</h2>
+    <ul>
+        <li>HTML & CSS Fundamentals</li>
+    </ul>
+
+    <h2>Languages</h2>
+    <ul>
+        <li>English</li>
+        <li>Telugu</li>
+        <li>Hindi</li>
+    </ul>
+
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Coding</li>
+        <li>Playing viedogames</li>
+    </ul>
+
+    <h2>Declaration</h2>
+    <p>
+        I hereby declare that the information provided above is true to the best
+        of my knowledge and belief.
+    </p>
+
+    <br>
+
+    <p><strong>Place:</strong> marteru</p>
+    <p><strong>Date:</strong> 23/11/2006</p>
+
+    <p><strong>Signature</strong></p>
+    <p>ch.b.s.k.charan reddy</p>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
